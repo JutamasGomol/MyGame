@@ -34,7 +34,7 @@ public class HomeScreen extends UIScreen {
     root.addStyles(Style.BACKGROUND.is(Background.bordered(0xFFCCCCCC, 0XFF99CCFF, 5).inset(5, 10)));
     root.setSize(width(), height());
 
-    root.add(new Label("Event Driven Programming").addStyles(Style.FONT.is(HomeScreen.TITLE_FONT)));
+    root.add(new Label("START").addStyles(Style.FONT.is(HomeScreen.TITLE_FONT)));
 
     root.add(new Button("Start").onClick(new UnitSlot() {
       public void onEmit() {
